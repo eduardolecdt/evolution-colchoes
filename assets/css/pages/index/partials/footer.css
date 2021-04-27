@@ -1,0 +1,43 @@
+/*
+
+INDEX > FOOTER
+
+*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 80px 20px;
+  background-image: linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -webkit-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -moz-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
+}
+
+footer img {
+  width: 100%;
+  max-width: 250px;
+}
+
+footer p {
+  font-family: var(--fonte-regular);
+  font-size: clamp(0.9rem, 5vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--cor-branco);
+  padding: 20px 0 0 0;
+}
+
+/*
+
+Responsivo
+
+*/
+
+@media screen and (max-width: 1000px) {
+  footer img {
+    max-width: 180px;
+  }
+}

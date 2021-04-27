@@ -1,10 +1,10 @@
 /*
 
-INDEX > section.formulario
+INDEX > section.formulario3
 
 */
 
-section.formulario {
+section.formulario3 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@ section.formulario {
   background-color: var(--cor-branco);
 }
 
-section.formulario .texto {
+section.formulario3 .texto {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -21,7 +21,7 @@ section.formulario .texto {
   padding: 80px;
 }
 
-section.formulario .texto h2 {
+section.formulario3 .texto h2 {
   font-family: var(--fonte-regular);
   font-size: clamp(1.5rem, 5vw, 3rem);
   line-height: 1.3;
@@ -29,7 +29,7 @@ section.formulario .texto h2 {
   padding: 0 0 30px 0;
 }
 
-section.formulario .texto h2 span {
+section.formulario3 .texto h2 span {
   font-family: var(--fonte-demibold);
   color: var(--cor-verde-1);
   background-color: var(--cor-verde-2);
@@ -37,7 +37,7 @@ section.formulario .texto h2 span {
   padding: 0 10px 3px 10px;
 }
 
-section.formulario .texto button {
+section.formulario3 .texto button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,32 +53,32 @@ section.formulario .texto button {
   transition: all 0.3s;
 }
 
-section.formulario .texto button img {
+section.formulario3 .texto button img {
   width: 20px;
   height: 20px;
   margin-left: 10px;
   pointer-events: none;
 }
 
-section.formulario .texto button:hover {
+section.formulario3 .texto button:hover {
   opacity: 0.7;
 }
 
-section.formulario .texto label {
+section.formulario3 .texto label {
   font-family: var(--fonte-demibold);
   font-size: clamp(0.9rem, 5vw, 1rem);
   color: var(--cor-azul-1);
   padding: 0 0 10px 0;
 }
 
-section.formulario .texto .input {
+section.formulario3 .texto .input {
   position: relative;
   width: 100%;
   max-width: 600px;
   margin: 0 0 30px 0;
 }
 
-section.formulario .texto .input img {
+section.formulario3 .texto .input img {
   width: 20px;
   height: 20px;
   pointer-events: none;
@@ -88,7 +88,7 @@ section.formulario .texto .input img {
   transform: translate(0, -50%);
 }
 
-section.formulario .texto .input input {
+section.formulario3 .texto .input input {
   font-family: var(--fonte-regular);
   font-size: clamp(1rem, 5vw, 1.2rem);
   color: var(--cor-verde-1);
@@ -98,18 +98,18 @@ section.formulario .texto .input input {
   width: 100%;
 }
 
-section.formulario .texto .input input::placeholder {
+section.formulario3 .texto .input input::placeholder {
   opacity: 1;
   color: var(--cor-cinza-1);
 }
 
-section.formulario .texto .input input:focus {
+section.formulario3 .texto .input input:focus {
   color: var(--cor-azul-1);
 }
 
-section.formulario .imagem {
+section.formulario3 .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/index/background-cama-cinza-desktop.png');
+  background-image: url('../../../../../files/pages/index/background-cama-azul-desktop.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -117,7 +117,7 @@ section.formulario .imagem {
   position: relative;
 }
 
-section.formulario .imagem img.controle {
+section.formulario3 .imagem img.controle {
   position: absolute;
   bottom: 0;
   right: 200px;
@@ -125,7 +125,7 @@ section.formulario .imagem img.controle {
   max-width: 200px;
 }
 
-section.formulario .imagem .temporizador {
+section.formulario3 .imagem .temporizador {
   position: absolute;
   right: 0;
   top: 50px;
@@ -141,7 +141,7 @@ section.formulario .imagem .temporizador {
   background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
 }
 
-section.formulario .imagem .temporizador h2 {
+section.formulario3 .imagem .temporizador h2 {
   font-family: var(--fonte-regular);
   font-size: clamp(1rem, 5vw, 1.2rem);
   color: var(--cor-branco);
@@ -150,11 +150,11 @@ section.formulario .imagem .temporizador h2 {
   padding: 0 0 30px 0;
 }
 
-section.formulario .imagem .temporizador h2 span {
+section.formulario3 .imagem .temporizador h2 span {
   font-family: var(--fonte-demibold);
 }
 
-section.formulario .imagem .temporizador .informacoes {
+section.formulario3 .imagem .temporizador .informacoes {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,7 +162,7 @@ section.formulario .imagem .temporizador .informacoes {
   min-width: 400px;
 }
 
-section.formulario .imagem .temporizador .informacoes .parte {
+section.formulario3 .imagem .temporizador .informacoes .parte {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,13 +171,13 @@ section.formulario .imagem .temporizador .informacoes .parte {
   padding: 0 30px 0 0;
 }
 
-section.formulario .imagem .temporizador .informacoes .parte h3 {
+section.formulario3 .imagem .temporizador .informacoes .parte h3 {
   font-family: var(--fonte-demibold);
   font-size: clamp(1.5rem, 5vw, 3rem);
   color: var(--cor-branco);
 }
 
-section.formulario .imagem .temporizador .informacoes .parte p {
+section.formulario3 .imagem .temporizador .informacoes .parte p {
   font-family: var(--fonte-regular);
   font-size: clamp(0.8rem, 5vw, 1.2rem);
   color: var(--cor-branco);
@@ -190,40 +190,40 @@ Responsivo
 */
 
 @media screen and (max-width: 1400px) {
-  section.formulario .imagem {
+  section.formulario3 .imagem {
     min-height: 120vh;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  section.formulario {
+  section.formulario3 {
     flex-direction: column;
   }
-  section.formulario .texto {
+  section.formulario3 .texto {
     width: 100%;
-    padding: 80px 20px;
+    padding: 80px 20px 50px 20px;
   }
-  section.formulario .imagem {
+  section.formulario3 .imagem {
     width: 100%;
-    background-image: url('../../../../../files/pages/index/background-cama-cinza-mobile.png');
+    background-image: url('../../../../../files/pages/index/background-cama-azul-mobile.png');
     background-position: top center;
     min-height: 500px;
     padding: 0 0 0 20px;
   }
   
-  section.formulario .imagem img.controle {
+  section.formulario3 .imagem img.controle {
     right: 20px;
     max-width: 100px;
   }
   
-  section.formulario .imagem .temporizador {
+  section.formulario3 .imagem .temporizador {
     top: 100px;
     padding: 30px;
   }
-  section.formulario .imagem .temporizador .informacoes {
+  section.formulario3 .imagem .temporizador .informacoes {
     min-width: auto;
   }
-  section.formulario .imagem .temporizador .informacoes .parte {
+  section.formulario3 .imagem .temporizador .informacoes .parte {
     padding: 0 20px 0 0;
   }
 }
