@@ -117,12 +117,23 @@ section.video div.modal .conteudo {
   min-height: 100vh;
   padding: 80px 20px;
   background-color: rgba(0, 161, 224, 0.7);
-  transition: all 0.3s;
   opacity: 0;
   visibility: hidden;
 }
 
+@keyframes abrirModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 section.video div.modal.mostrar .conteudo {
+  animation: abrirModal 0.3s linear;
   opacity: 1;
   visibility: visible;
 }

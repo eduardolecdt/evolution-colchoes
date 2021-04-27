@@ -18,6 +18,12 @@ section.frase {
 section.frase img {
   width: 100%;
   max-width: 500px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+section.frase.comVideo img:hover {
+  opacity: 0.7;
 }
 
 section.frase .texto {
@@ -49,6 +55,93 @@ section.frase .texto p {
   color: var(--cor-branco);
   width: 100%;
   padding: 10px 0 0 0;
+}
+
+/* Modal */
+
+section.frase div.modal {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+section.frase div.modal.mostrar {
+  display: flex;
+}
+
+section.frase div.modal .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: rgba(0, 161, 224, 0.7);
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes abrirModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+section.frase div.modal.mostrar .conteudo {
+  animation: abrirModal 0.3s linear;
+  opacity: 1;
+  visibility: visible;
+}
+
+section.frase div.modal .conteudo button {
+  font-family: var(--fonte-demibold);
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
+  color: var(--cor-azul-1);
+  background-color: var(--cor-branco);
+  transition: all 0.3s;
+  padding: 20px 30px;
+  border-radius: 20px 20px 0 0;
+}
+
+section.frase div.modal .conteudo button:hover {
+  opacity: 0.7;
+}
+
+section.frase div.modal .conteudo .video {
+  width: 100%;
+  max-width: 800px;
+}
+
+section.frase div.modal .conteudo .video .tamanho {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+section.frase div.modal .conteudo .video .tamanho iframe {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: var(--cor-preto);
 }
 
 /*

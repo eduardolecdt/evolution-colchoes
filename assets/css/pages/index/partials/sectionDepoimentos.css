@@ -86,7 +86,19 @@ section.depoimentos div.modal .conteudo {
   visibility: hidden;
 }
 
+@keyframes abrirModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
 section.depoimentos div.modal.mostrar .conteudo {
+  animation: abrirModal 0.3s linear;
   opacity: 1;
   visibility: visible;
 }
