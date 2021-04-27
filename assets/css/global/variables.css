@@ -11,8 +11,21 @@ VARIABLES
   --cor-branco: #FFFFFF;
   --cor-preto: #000000;
 
+  --cor-azul-1: #00A1E0;
+  --cor-azul-2: #6BC7F3;
+  --cor-azul-3: #BCEBFF;
+  --cor-azul-4: #CEF0FF;
+  --cor-azul-5: #E4F7FF;
+
+  --cor-verde-1: #4CC871;
+  --cor-verde-2: #8FFFB5;
+  
+  --cor-cinza-1: #9297B8;
+  --cor-cinza-2: #F6F6F9;
+
   /* Fontes */
 
-  --fonte: '';
+  --fonte-regular: 'clarikaRegular';
+  --fonte-demibold: 'clarikaDemibold';
 
 }

@@ -1,0 +1,70 @@
+/*
+
+INDEX > NAV
+
+*/
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 80px;
+  background-image: linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -webkit-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -moz-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  z-index: 15;
+}
+
+nav img.logo {
+  width: 130px;
+}
+
+nav .opcoes {
+  margin-left: auto;
+}
+
+nav .opcoes button {
+  font-family: var(--fonte-demibold);
+  font-size: clamp(0.9rem, 5vw, 1rem);
+  color: var(--cor-branco);
+  background-color: transparent;
+  margin-left: 30px;
+  transition: all 0.3s;
+}
+
+nav .opcoes button.destaque {
+  background-color: var(--cor-branco);
+  color: var(--cor-azul-1);
+  padding: 10px 15px;
+  border-radius: 13px;
+}
+
+nav .opcoes button:hover {
+  opacity: 0.7;
+}
+
+/*
+
+Responsivo
+
+*/
+
+@media screen and (max-width: 1000px) {
+  nav {
+    padding: 10px 20px;
+  } 
+  nav img.logo {
+    width: 100px;
+  }
+  nav .opcoes button {
+    display: none;
+  }
+  nav .opcoes button.destaque {
+    display: flex;
+  }
+}
