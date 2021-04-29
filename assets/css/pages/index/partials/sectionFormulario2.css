@@ -124,9 +124,9 @@ section.formulario2 .texto .input input:focus {
 
 section.formulario2 .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/index/background-cama-preta-desktop.png');
+  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-desktop.png');
   background-size: cover;
-  background-position: right center;
+  background-position: left center;
   background-repeat: no-repeat;
   min-height: 105vh;
   position: relative;
@@ -135,21 +135,21 @@ section.formulario2 .imagem {
 section.formulario2 .imagem img.controle {
   position: absolute;
   bottom: 0;
-  right: 50px;
+  right: 200px;
   width: 100%;
   max-width: 200px;
 }
 
 section.formulario2 .imagem .temporizador {
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   padding: 50px 50px 50px 50px;
-  border-radius: 0 20px 20px 0;
+  border-radius: 20px 0 0 20px;
   background-image: linear-gradient(0deg, #00A1E0, #6BC7F3);
   background-image: -webkit-linear-gradient(0deg, #00A1E0, #6BC7F3);
   background-image: -moz-linear-gradient(0deg, #00A1E0, #6BC7F3);
@@ -212,7 +212,7 @@ Responsivo
 
 @media screen and (max-width: 1000px) {
   section.formulario2 {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   section.formulario2 .texto {
     width: 100%;
@@ -220,7 +220,7 @@ Responsivo
   }
   section.formulario2 .imagem {
     width: 100%;
-    background-image: url('../../../../../files/pages/index/background-cama-preta-mobile.png');
+    background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-mobile.png');
     background-position: top center;
     min-height: 500px;
     padding: 0 0 0 20px;

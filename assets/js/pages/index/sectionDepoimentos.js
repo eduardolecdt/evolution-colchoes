@@ -14,7 +14,7 @@
   function abrirModal1 () {
     img1.addEventListener('click', () => {
       modal1.classList.add('mostrar')
-      iframe1.src = 'https://www.youtube-nocookie.com/embed/-_6_T-mvPog'
+      iframe1.src = 'https://www.youtube.com/embed/CZcFNIJKDE4'
     })
   }
 
@@ -35,7 +35,7 @@
   function abrirModal2 () {
     img2.addEventListener('click', () => {
       modal2.classList.add('mostrar')
-      iframe2.src = 'https://www.youtube-nocookie.com/embed/-_6_T-mvPog'
+      iframe2.src = 'https://www.youtube.com/embed/oTFBDBW5i0k'
     })
   }
 
@@ -56,7 +56,7 @@
   function abrirModal3 () {
     img3.addEventListener('click', () => {
       modal3.classList.add('mostrar')
-      iframe3.src = 'https://www.youtube-nocookie.com/embed/-_6_T-mvPog'
+      iframe3.src = 'https://www.youtube.com/embed/u6FZM6i9tyk'
     })
   }
 

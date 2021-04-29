@@ -29,6 +29,10 @@ body {
   background-color: #ffffff;
 }
 
+body.bloqueado {
+  overflow: hidden;
+}
+
 main {
   display: block;
 }

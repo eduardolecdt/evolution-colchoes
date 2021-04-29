@@ -124,7 +124,7 @@ section.formulario .texto form .clear input.button:hover {
 
 section.formulario .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/index/background-cama-cinza-desktop.png');
+  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-cinza-desktop.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -220,7 +220,7 @@ Responsivo
   }
   section.formulario .imagem {
     width: 100%;
-    background-image: url('../../../../../files/pages/index/background-cama-cinza-mobile.png');
+    background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-cinza-mobile.png');
     background-position: top center;
     min-height: 500px;
     padding: 0 0 0 20px;

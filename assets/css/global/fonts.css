@@ -9,7 +9,7 @@ FONTES
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('../../../files/fonts/clarika-regular.woff') format('woff');
+  src: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/fonts/clarika-regular.woff') format('woff');
 }
 
 @font-face {
@@ -17,5 +17,5 @@ FONTES
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-  src: url('../../../files/fonts/clarika-demibold.woff') format('woff');
+  src: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/fonts/clarika-demibold.woff') format('woff');
 }
