@@ -17,7 +17,7 @@ section.quadros .quadro {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 80px;
+  padding: 80px 0 0 80px;
   width: 33.3%;
   position: relative;
   min-height: 250px;
@@ -46,6 +46,18 @@ section.quadros .quadro h2 {
   color: var(--cor-azul-1);
   width: 100%;
   transition: all 0.3s;
+  padding: 0 80px 0 0;
+}
+
+section.quadros .quadro h4 {
+  font-family: var(--fonte-regular);
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  line-height: 1.6;
+  color: var(--cor-cinza-1);
+  width: 100%;
+  transition: all 0.3s;
+  padding: 0 80px 0 0;
+  margin-bottom: auto;
 }
 
 section.quadros .quadro h2 span {
@@ -54,22 +66,25 @@ section.quadros .quadro h2 span {
 
 section.quadros .quadro img.icone {
   width: 50px;
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
+  margin: 0 20px 20px 0;
+  margin-left: auto;
+  margin-top: auto;
   transition: all 0.3s;
 }
 
 /* Especial */
 
 section.quadros.especial .quadro img.icone {
-  width: 30px;
+  width: 100px;
   cursor: pointer;
+  border-radius: 30px 30px 0 30px;
+  position: initial;
+  margin: 0 20px 20px 0;
+  margin-left: auto;
 }
 
 section.quadros.especial .quadro img.icone:hover {
   opacity: 0.7;
-  transform: scale(1.4);
 }
 
 section.quadros.especial .quadro h2 {
@@ -78,6 +93,14 @@ section.quadros.especial .quadro h2 {
 
 section.quadros.especial .quadro h2:hover {
   color: var(--cor-cinza-1);
+}
+
+section.quadros.especial .quadro h4 {
+  cursor: pointer;
+}
+
+section.quadros.especial .quadro h4:hover {
+  color: var(--cor-azul-1);
 }
 
 /* Modal */
@@ -190,7 +213,7 @@ Responsivo
     flex-direction: column;
   }
   section.quadros .quadro {
-    padding: 50px 20px;
+    padding: 30px 0 0 20px;
     width: 100%;
     min-height: auto;
   }
@@ -203,6 +226,10 @@ Responsivo
   section.quadros .quadro h2 {
     width: 100%;
     max-width: 280px;
+    padding: 0 40px 0 0;
+  }
+  section.quadros .quadro h4 {
+    padding: 0 40px 0 0;
   }
   section.quadros .quadro.azul1mobile {
     background-color: var(--cor-azul-5);
