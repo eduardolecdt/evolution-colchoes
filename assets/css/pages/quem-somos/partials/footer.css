@@ -31,6 +31,27 @@ footer p {
   text-align: center;
 }
 
+footer .botoes {
+  display: flex;
+  padding: 30px 0 0 0;
+}
+
+footer .botoes button {
+  background-color: transparent;
+  transition: all 0.3s;
+  margin: 0 10px;
+}
+
+footer .botoes button:hover {
+  opacity: 0.7;
+}
+
+footer .botoes button img {
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+}
+
 /*
 
 Responsivo

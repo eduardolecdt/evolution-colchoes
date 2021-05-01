@@ -1,6 +1,6 @@
 /*
 
-INDEX
+TECNOLOGIA
 
 */
 
@@ -10,11 +10,6 @@ INDEX
 
 @import './partials/whatsapp.css';
 
-@import './partials/header.css';
-@import './partials/sectionFrase.css';
-@import './partials/sectionFormulario.css';
 @import './partials/sectionFormulario2.css';
 @import './partials/sectionQuadros.css';
-@import './partials/sectionDepoimentos.css';
-@import './partials/sectionVideo.css';
 @import './partials/footer.css';
