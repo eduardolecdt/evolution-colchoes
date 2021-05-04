@@ -315,27 +315,27 @@
     </div>
     <!-- imagem -->
     <div class="imagem">
-      <div class="temporizador">
+      <app-temporizador>
         <h2>Últimos dias para <span>conseguir o seu desconto</span> exclusivo.</h2>
         <div class="informacoes">
           <div class="parte">
-            <h3>2</h3>
+            <h3 name="dias">0</h3>
             <p>Dias</p>
           </div>
           <div class="parte">
-            <h3>21</h3>
+            <h3 name="horas">0</h3>
             <p>Horas</p>
           </div>
           <div class="parte">
-            <h3>7</h3>
+            <h3 name="minutos">0</h3>
             <p>Minutos</p>
           </div>
           <div class="parte">
-            <h3>51</h3>
+            <h3 name="segundos">0</h3>
             <p>Segundos</p>
           </div>
         </div>
-      </div>
+      </app-temporizador>
       <img class="controle" data-src="https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/controle-1.png"> 
     </div>
   </section>
@@ -356,6 +356,7 @@
   <!-- JS imports -->
   <script src="../assets/js/global/global.js"></script>
   <script src="../assets/js/global/nav.js"></script>
+  <script src="../assets/js/global/app-temporizador.js"></script>
   <script src="../assets/js/pages/perguntas-frequentes/sectionQuadros.js"></script>
 
 </body>

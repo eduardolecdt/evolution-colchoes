@@ -140,7 +140,7 @@ section.formulario2 .imagem img.controle {
   max-width: 200px;
 }
 
-section.formulario2 .imagem .temporizador {
+section.formulario2 .imagem app-temporizador {
   position: absolute;
   right: 0;
   top: 50px;
@@ -156,7 +156,7 @@ section.formulario2 .imagem .temporizador {
   background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
 }
 
-section.formulario2 .imagem .temporizador h2 {
+section.formulario2 .imagem app-temporizador h2 {
   font-family: var(--fonte-regular);
   font-size: clamp(1rem, 5vw, 1.2rem);
   color: var(--cor-branco);
@@ -165,11 +165,11 @@ section.formulario2 .imagem .temporizador h2 {
   padding: 0 0 30px 0;
 }
 
-section.formulario2 .imagem .temporizador h2 span {
+section.formulario2 .imagem app-temporizador h2 span {
   font-family: var(--fonte-demibold);
 }
 
-section.formulario2 .imagem .temporizador .informacoes {
+section.formulario2 .imagem app-temporizador .informacoes {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -177,7 +177,7 @@ section.formulario2 .imagem .temporizador .informacoes {
   min-width: 400px;
 }
 
-section.formulario2 .imagem .temporizador .informacoes .parte {
+section.formulario2 .imagem app-temporizador .informacoes .parte {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,13 +186,13 @@ section.formulario2 .imagem .temporizador .informacoes .parte {
   padding: 0 30px 0 0;
 }
 
-section.formulario2 .imagem .temporizador .informacoes .parte h3 {
+section.formulario2 .imagem app-temporizador .informacoes .parte h3 {
   font-family: var(--fonte-demibold);
   font-size: clamp(1.5rem, 5vw, 3rem);
   color: var(--cor-branco);
 }
 
-section.formulario2 .imagem .temporizador .informacoes .parte p {
+section.formulario2 .imagem app-temporizador .informacoes .parte p {
   font-family: var(--fonte-regular);
   font-size: clamp(0.8rem, 5vw, 1.2rem);
   color: var(--cor-branco);
@@ -231,14 +231,14 @@ Responsivo
     max-width: 100px;
   }
   
-  section.formulario2 .imagem .temporizador {
+  section.formulario2 .imagem app-temporizador {
     top: 100px;
     padding: 30px;
   }
-  section.formulario2 .imagem .temporizador .informacoes {
+  section.formulario2 .imagem app-temporizador .informacoes {
     min-width: auto;
   }
-  section.formulario2 .imagem .temporizador .informacoes .parte {
+  section.formulario2 .imagem app-temporizador .informacoes .parte {
     padding: 0 20px 0 0;
   }
 }
