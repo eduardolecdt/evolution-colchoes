@@ -29,6 +29,18 @@ section.formulario .texto h2 {
   padding: 0 0 30px 0;
 }
 
+section.formulario .texto p {
+  font-family: var(--fonte-regular);
+  font-size: clamp(1rem, 5vw, 1.2rem);
+  line-height: 1.5;
+  color: var(--cor-cinza-1);
+  padding: 0 0 10px 0;
+}
+
+section.formulario .texto p span {
+  color: var(--cor-azul-1);
+}
+
 section.formulario .texto h2 span {
   font-family: var(--fonte-demibold);
   color: var(--cor-verde-1);
