@@ -1,12 +1,5 @@
-/*
-
-VARIABLES
-
-*/
-
+/* VARIABLES */
 :root {
-
-  /* Cores */
 
   --cor-branco: #FFFFFF;
   --cor-preto: #000000;
@@ -17,15 +10,13 @@ VARIABLES
   --cor-azul-4: #CEF0FF;
   --cor-azul-5: #E4F7FF;
 
-  --cor-verde-1: #4CC871;
-  --cor-verde-2: #8FFFB5;
-  
-  --cor-cinza-1: #9297B8;
+  --cor-verde: #29ad51;
+  --cor-vermelho: #e9223c;
+
+  --cor-cinza-1: #636781;
   --cor-cinza-2: #F6F6F9;
 
-  /* Fontes */
-
-  --fonte-regular: 'clarikaRegular';
-  --fonte-demibold: 'clarikaDemibold';
+  --regular: 'clarikaRegular';
+  --demibold: 'clarikaDemibold';
 
 }

@@ -1,0 +1,144 @@
+/* INDEX > section.desconto */
+section.desconto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--cor-branco);
+}
+section.desconto .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  padding: 50px;
+}
+section.desconto .texto form {
+  width: 100%;
+}
+section.desconto .texto h2 {
+  font-family: var(--demibold);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.5;
+  color: var(--cor-azul-1);
+  width: 100%;
+  max-width: 450px;
+}
+section.desconto .texto h2 span {
+  font-family: var(--demibold);
+  color: var(--cor-branco);
+  background-color: var(--cor-verde);
+  border-radius: 8px;
+  padding: 0 10px 3px 10px;
+}
+section.desconto .texto p {
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  line-height: 1.5;
+  color: var(--cor-cinza-1);
+  padding: 15px 0;
+}
+section.desconto .texto h3 {
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  color: var(--cor-verde);
+}
+section.desconto .imagem {
+  width: 50%;
+  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-desktop.png');
+  background-size: cover;
+  background-position: left center;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  position: relative;
+}
+section.desconto .imagem img.controle {
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+  width: 100%;
+  max-width: 200px;
+}
+section.desconto .imagem app-temporizador {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -webkit-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -moz-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
+}
+section.desconto .imagem app-temporizador h2 {
+  font-family: var(--regular);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  width: 100%;
+  max-width: 250px;
+  padding: 0 0 10px 0;
+}
+section.desconto .imagem app-temporizador h2 span {
+  font-family: var(--demibold);
+}
+section.desconto .imagem app-temporizador .informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 400px;
+}
+section.desconto .imagem app-temporizador .informacoes .parte {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px 0 0;
+}
+section.desconto .imagem app-temporizador .informacoes .parte h3 {
+  font-family: var(--demibold);
+  font-size: clamp(1.3rem, 3vw, 2.5rem);
+  color: var(--cor-branco);
+}
+section.desconto .imagem app-temporizador .informacoes .parte p {
+  font-family: var(--demibold);
+  font-size: clamp(0.8rem, 3vw, 1.1rem);
+  color: var(--cor-branco);
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.desconto {
+    flex-direction: column;
+  }
+  section.desconto .texto {
+    width: 100%;
+    padding: 50px 20px 30px 20px;
+  }
+  section.desconto .imagem {
+    width: 100%;
+    background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-mobile.png');
+    background-position: top center;
+    min-height: 500px;
+    padding: 0 0 0 20px;
+  }
+  section.desconto .imagem img.controle {
+    right: 20px;
+    max-width: 100px;
+  }
+  section.desconto .imagem app-temporizador {
+    top: 100px;
+    padding: 30px;
+  }
+  section.desconto .imagem app-temporizador .informacoes {
+    min-width: auto;
+  }
+  section.desconto .imagem app-temporizador .informacoes .parte {
+    padding: 0 20px 0 0;
+  }
+}

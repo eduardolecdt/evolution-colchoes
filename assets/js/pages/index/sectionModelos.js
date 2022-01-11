@@ -5,9 +5,9 @@
   const body = document.querySelector('body')
 
   // MODAL 1
-  const header1 = document.querySelector('header[name="prime"]')
-  const abrir1 = header1.querySelector('button[name="abrir"]')
-  const modal1 = header1.querySelector('div[name="modal"]')
+  const div1 = document.querySelector('div[name="prime"]')
+  const abrir1 = div1.querySelector('button[name="abrir"]')
+  const modal1 = div1.querySelector('div[name="modal"]')
   const fechar1 = modal1.querySelector('button[name="fechar"]')
 
   function abrirModal1 () {
@@ -28,9 +28,9 @@
   fecharModal1()
 
   // MODAL 2
-  const header2 = document.querySelector('header[name="infinity"]')
-  const abrir2 = header2.querySelector('button[name="abrir"]')
-  const modal2 = header2.querySelector('div[name="modal"]')
+  const div2 = document.querySelector('div[name="infinity"]')
+  const abrir2 = div2.querySelector('button[name="abrir"]')
+  const modal2 = div2.querySelector('div[name="modal"]')
   const fechar2 = modal2.querySelector('button[name="fechar"]')
 
   function abrirModal2 () {
@@ -51,9 +51,9 @@
   fecharModal2()
 
   // MODAL 3
-  const header3 = document.querySelector('header[name="magnific"]')
-  const abrir3 = header3.querySelector('button[name="abrir"]')
-  const modal3 = header3.querySelector('div[name="modal"]')
+  const div3 = document.querySelector('div[name="magnific"]')
+  const abrir3 = div3.querySelector('button[name="abrir"]')
+  const modal3 = div3.querySelector('div[name="modal"]')
   const fechar3 = modal3.querySelector('button[name="fechar"]')
 
   function abrirModal3 () {
@@ -74,9 +74,9 @@
   fecharModal3()
 
   // MODAL 4
-  const header4 = document.querySelector('header[name="pet"]')
-  const abrir4 = header4.querySelector('button[name="abrir"]')
-  const modal4 = header4.querySelector('div[name="modal"]')
+  const div4 = document.querySelector('div[name="pet"]')
+  const abrir4 = div4.querySelector('button[name="abrir"]')
+  const modal4 = div4.querySelector('div[name="modal"]')
   const fechar4 = modal4.querySelector('button[name="fechar"]')
 
   function abrirModal4 () {
@@ -97,9 +97,9 @@
   fecharModal4()
 
   // MODAL 5
-  const header5 = document.querySelector('header[name="travesseiro"]')
-  const abrir5 = header5.querySelector('button[name="abrir"]')
-  const modal5 = header5.querySelector('div[name="modal"]')
+  const div5 = document.querySelector('div[name="travesseiro"]')
+  const abrir5 = div5.querySelector('button[name="abrir"]')
+  const modal5 = div5.querySelector('div[name="modal"]')
   const fechar5 = modal5.querySelector('button[name="fechar"]')
 
   function abrirModal5 () {
