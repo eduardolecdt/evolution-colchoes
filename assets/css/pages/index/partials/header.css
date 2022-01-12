@@ -68,7 +68,7 @@ header .titulo button:hover {
 /* Imagem */
 header .imagem {
   width: 50%;
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-desktop.png');
+  background-image: url('../../../../../files/pages/index/background-cama-azul-desktop.png');
   background-size: cover;
   background-position: left center;
   min-height: 500px;
@@ -95,7 +95,7 @@ header .imagem img.controle {
   }
   header .imagem {
     width: 100%;
-    background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-cama-azul-mobile.png');
+    background-image: url('../../../../../files/pages/index/background-cama-azul-mobile.png');
     background-position: top right;
     min-height: 300px;
   }

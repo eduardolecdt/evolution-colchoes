@@ -22,19 +22,19 @@ section.modelos .parte {
   padding: 200px 30px 30px 30px;
 }
 section.modelos .parte.um {
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/colchao-prime.png');
+  background-image: url('../../../../../files/pages/index/colchao-prime.png');
 }
 section.modelos .parte.dois {
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/colchao-infinity.png');
+  background-image: url('../../../../../files/pages/index/colchao-infinity.png');
 }
 section.modelos .parte.tres {
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/colchao-magnific.png');
+  background-image: url('../../../../../files/pages/index/colchao-magnific.png');
 }
 section.modelos .parte.quatro {
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/colchao-pet.png');
+  background-image: url('../../../../../files/pages/index/colchao-pet.png');
 }
 section.modelos .parte.cinco {
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/colchao-travesseiros.png');
+  background-image: url('../../../../../files/pages/index/colchao-travesseiros.png');
   width: 100%;
 }
 section.modelos .quadro {

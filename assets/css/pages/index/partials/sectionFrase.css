@@ -5,7 +5,7 @@ section.frase {
   justify-content: center;
   width: 100%;
   background-color: var(--cor-azul-1);
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-degrade.png');
+  background-image: url('../../../../../files/pages/index/background-degrade.png');
   background-size: cover;
   background-position: center;
   padding: 50px;

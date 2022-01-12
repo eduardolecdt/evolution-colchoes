@@ -7,7 +7,7 @@ footer {
   width: 100%;
   padding: 50px 20px 30px 20px;
   background-color: var(--cor-azul-1);
-  background-image: url('https://arquivos-evolution.nyc3.digitaloceanspaces.com/pages/index/background-degrade.png');
+  background-image: url('../../../../../files/pages/index/background-degrade.png');
   background-size: cover;
   background-position: center;
 }
