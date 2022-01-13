@@ -46,7 +46,7 @@ section.desconto .texto h3 {
 }
 section.desconto .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/index/background-cama-azul-desktop.png');
+  background-image: url('../../../../../files/pages/index/evolution-2.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -122,9 +122,8 @@ section.desconto .imagem app-temporizador .informacoes .parte p {
   }
   section.desconto .imagem {
     width: 100%;
-    background-image: url('../../../../../files/pages/index/background-cama-azul-mobile.png');
-    background-position: top center;
-    min-height: 500px;
+    background-position: right bottom;
+    min-height: 400px;
     padding: 0 0 0 20px;
   }
   section.desconto .imagem img.controle {
@@ -132,7 +131,7 @@ section.desconto .imagem app-temporizador .informacoes .parte p {
     max-width: 100px;
   }
   section.desconto .imagem app-temporizador {
-    top: 100px;
+    top: 20px;
     padding: 30px;
   }
   section.desconto .imagem app-temporizador .informacoes {
