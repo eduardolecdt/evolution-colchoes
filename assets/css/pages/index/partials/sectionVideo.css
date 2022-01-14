@@ -4,7 +4,7 @@ section.video {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: var(--cor-branco);
+  background-color: var(--cor-cinza-3);
 }
 section.video .texto {
   display: flex;
@@ -18,7 +18,7 @@ section.video .texto h2 {
   font-family: var(--regular);
   font-size: clamp(1.3rem, 3vw, 1.7rem);
   line-height: 1.3;
-  color: var(--cor-azul-1);
+  color: var(--cor-cinza-1);
   width: 100%;
   max-width: 420px;
 }

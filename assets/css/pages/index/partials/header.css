@@ -71,7 +71,7 @@ header .imagem {
   background-image: url('../../../../../files/pages/index/cama-azul-desktop.png');
   background-size: cover;
   background-position: left top;
-  min-height: 550px;
+  min-height: 650px;
   position: relative;
 }
 header .imagem img.controle {
@@ -100,8 +100,7 @@ header .imagem img.controle {
     min-height: 300px;
   }
   header .imagem img.controle {
-    top: inherit;
-    bottom: 100px;
-    max-width: 150px;
+    top: 10px;
+    max-width: 100px;
   }
 }

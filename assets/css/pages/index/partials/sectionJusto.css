@@ -30,7 +30,7 @@ section.justo .texto p {
   font-size: clamp(1rem, 3vw, 1.2rem);
   line-height: 1.5;
   color: var(--cor-cinza-1);
-  padding: 20px 0 20px 0;
+  padding: 15px 0 0 0;
   width: 100%;
   max-width: 500px;
 }
@@ -38,6 +38,7 @@ section.justo .texto h3 {
   font-family: var(--demibold);
   font-size: clamp(1rem, 3vw, 1.2rem);
   color: var(--cor-verde);
+  padding: 15px 0 0 0;
 }
 section.justo .imagem {
   width: 50%;
@@ -45,7 +46,7 @@ section.justo .imagem {
   background-size: cover;
   background-position: left top;
   background-repeat: no-repeat;
-  min-height: 500px;
+  min-height: 650px;
   position: relative;
 }
 section.justo .imagem img.controle {
@@ -113,7 +114,7 @@ section.justo .imagem app-temporizador .informacoes .parte p {
   }
   section.justo .texto {
     width: 100%;
-    padding: 80px 20px;
+    padding: 50px 20px 0 20px;
   }
   section.justo .imagem {
     width: 100%;

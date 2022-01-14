@@ -20,6 +20,7 @@ section.spa .texto h2 {
   line-height: 1.3;
   color: var(--cor-azul-1);
   width: 100%;
+  max-width: 450px;
 }
 section.spa .texto h2 span {
   font-family: var(--demibold);
@@ -63,7 +64,7 @@ section.spa .imagem {
   background-size: cover;
   background-position: left center;
   position: relative;
-  min-height: 300px;
+  min-height: 350px;
 }
 /* Responsivo */
 @media screen and (max-width: 1000px) {
@@ -72,13 +73,12 @@ section.spa .imagem {
   }
   section.spa .texto {
     width: 100%;
-    padding: 60px 20px 30px 20px;
+    padding: 60px 20px 0px 20px;
   }
   section.spa .imagem {
     width: 100%;
     background-image: url('../../../../../files/pages/index/cama-dourada-mobile.png');
     background-position: top center;
     position: relative;
-    padding: 80px 20px 60px 20px;
   }
 }
