@@ -1,15 +1,17 @@
 /* INDEX > section.frase */
 section.frase {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   width: 100%;
   background-color: var(--cor-cinza-3);
   padding: 50px;
 }
 section.frase img {
   width: 100%;
-  max-width: 300px;
+  max-width: 700px;
   cursor: pointer;
   border-radius: 10px;
   transition: all 0.3s;
@@ -17,33 +19,17 @@ section.frase img {
 section.frase img:hover {
   opacity: 0.7;
 }
-section.frase .texto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  width: 100%;
-  margin-right: auto;
-  padding: 0 0 0 50px;
-}
-section.frase .texto h2 {
+section.frase h2 {
   font-family: var(--regular);
   font-size: clamp(1.3rem, 3vw, 1.7rem);
   line-height: 1.3;
   color: var(--cor-cinza-1);
   width: 100%;
   max-width: 500px;
+  margin: 0 0 20px 0;
 }
-section.frase .texto h2 span {
+section.frase h2 span {
   font-family: var(--demibold);
-}
-section.frase .texto p {
-  font-family: var(--regular);
-  font-size: clamp(1rem, 3vw, 1.2rem);
-  line-height: 1.5;
-  color: var(--cor-branco);
-  width: 100%;
-  padding: 10px 0 0 0;
 }
 /* Modal */
 section.frase div.modal {

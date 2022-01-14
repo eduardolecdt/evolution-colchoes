@@ -21,6 +21,7 @@ section.spa .texto h2 {
   color: var(--cor-azul-1);
   width: 100%;
   max-width: 450px;
+  padding: 0 0 15px 0;
 }
 section.spa .texto h2 span {
   font-family: var(--demibold);
@@ -32,7 +33,20 @@ section.spa .texto p {
   color: var(--cor-cinza-1);
   width: 100%;
   max-width: 450px;
-  padding: 10px 0 20px 0;
+  padding: 0 0 15px 0;
+  display: flex;
+  align-items: center;
+}
+section.spa .texto p img {
+  width: 20px;
+  min-width: 20px;
+  margin: 0 5px 0 0;
+}
+section.spa .texto h3 {
+  font-family: var(--demibold);
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  line-height: 1.3;
+  color: var(--cor-verde);
 }
 section.spa .texto button {
   display: flex;
@@ -64,7 +78,7 @@ section.spa .imagem {
   background-size: cover;
   background-position: left center;
   position: relative;
-  min-height: 350px;
+  min-height: 450px;
 }
 /* Responsivo */
 @media screen and (max-width: 1000px) {
