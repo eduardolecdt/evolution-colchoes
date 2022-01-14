@@ -18,7 +18,7 @@ section.desconto .texto form {
   width: 100%;
 }
 section.desconto .texto h2 {
-  font-family: var(--demibold);
+  font-family: var(--regular);
   font-size: clamp(1.3rem, 3vw, 1.7rem);
   line-height: 1.5;
   color: var(--cor-azul-1);
@@ -27,17 +27,15 @@ section.desconto .texto h2 {
 }
 section.desconto .texto h2 span {
   font-family: var(--demibold);
-  color: var(--cor-branco);
-  background-color: var(--cor-verde);
-  border-radius: 8px;
-  padding: 0 10px 3px 10px;
 }
 section.desconto .texto p {
   font-family: var(--demibold);
-  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  font-size: clamp(1.2rem, 3vw, 1.4rem);
   line-height: 1.5;
   color: var(--cor-cinza-1);
   padding: 15px 0;
+  width: 100%;
+  max-width: 400px;
 }
 section.desconto .texto h3 {
   font-family: var(--demibold);
