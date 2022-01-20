@@ -1,0 +1,130 @@
+/* INDEX > section.depoimentos */
+section.depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: var(--cor-azul-1);
+  background-image: url('../../../../../files/pages/promocao/background-degrade.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+section.depoimentos h2 {
+  font-family: var(--regular);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.3;
+  color: var(--cor-branco);
+  width: 100%;
+  padding: 0 0 20px 0;
+}
+section.depoimentos h2 span {
+  font-family: var(--demibold);
+}
+section.depoimentos .videos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+section.depoimentos .videos img {
+  width: 32.5%;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+section.depoimentos .videos img:hover {
+  opacity: 0.7;
+}
+/* Modal */
+section.depoimentos div.modal {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+section.depoimentos div.modal.mostrar {
+  display: flex;
+}
+section.depoimentos div.modal .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+@keyframes abrirModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+section.depoimentos div.modal.mostrar .conteudo {
+  animation: abrirModal 0.3s linear;
+  opacity: 1;
+  visibility: visible;
+}
+section.depoimentos div.modal .conteudo button {
+  font-family: var(--demibold);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-vermelho);
+  transition: all 0.3s;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+}
+section.depoimentos div.modal .conteudo button:hover {
+  opacity: 0.7;
+}
+section.depoimentos div.modal .conteudo .video {
+  width: 100%;
+  max-width: 800px;
+}
+section.depoimentos div.modal .conteudo .video .tamanho {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+section.depoimentos div.modal .conteudo .video .tamanho iframe {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: var(--cor-preto);
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.depoimentos {
+    padding: 50px 20px;
+    background-position: left bottom;
+  }
+  section.depoimentos .videos img {
+    width: 100%;
+    margin: 0 0 15px 0;
+  }
+}

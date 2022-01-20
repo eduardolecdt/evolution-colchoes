@@ -1,0 +1,113 @@
+/* INDEX > HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--cor-branco);
+}
+/* Título */
+header .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  padding: 80px 50px 50px 50px;
+}
+header .titulo h1 {
+  font-family: var(--regular);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.3;
+  color: var(--cor-azul-1);
+  width: 100%;
+  max-width: 450px;
+}
+header .titulo h1 span {
+  font-family: var(--demibold);
+}
+header .titulo p {
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  line-height: 1.5;
+  color: var(--cor-cinza-1);
+  padding: 20px 0 20px 0;
+  width: 100%;
+  max-width: 500px;
+}
+header .titulo a {
+  font-family: var(--demibold);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-verde);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+header .titulo a:hover {
+  background-color: var(--cor-azul-1);
+}
+header .titulo button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--regular);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-image: linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -webkit-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -moz-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  background-image: -o-linear-gradient(0deg, #00A1E0, #6BC7F3);
+  padding: 15px 20px;
+  border-radius: 15px;
+  transition: all 0.3s;
+}
+header .titulo button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  pointer-events: none;
+}
+header .titulo button:hover {
+  opacity: 0.7;
+}
+/* Imagem */
+header .imagem {
+  width: 50%;
+  background-image: url('../../../../../files/pages/promocao/cama-azul-desktop.png');
+  background-size: cover;
+  background-position: left top;
+  min-height: 650px;
+  position: relative;
+}
+header .imagem img.controle {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  width: 100%;
+  max-width: 150px;
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+  header .titulo h1 {
+    max-width: 320px;
+  }
+  header .titulo {
+    width: 100%;
+    padding: 90px 20px 20px 20px;
+  }
+  header .imagem {
+    width: 100%;
+    background-image: url('../../../../../files/pages/promocao/cama-azul-mobile.png');
+    background-position: top right;
+    min-height: 400px;
+  }
+  header .imagem img.controle {
+    bottom: 10px;
+    max-width: 70px;
+  }
+}

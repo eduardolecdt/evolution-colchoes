@@ -1,0 +1,68 @@
+/* INDEX > section.video */
+section.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: var(--cor-cinza-3);
+}
+section.video .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  padding: 50px;
+}
+section.video .texto h2 {
+  font-family: var(--regular);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.3;
+  color: var(--cor-cinza-1);
+  width: 100%;
+  max-width: 420px;
+}
+section.video .texto h2 span {
+  font-family: var(--demibold);
+}
+section.video .texto p {
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  line-height: 1.5;
+  color: var(--cor-cinza-1);
+  width: 100%;
+  max-width: 550px;
+  padding: 20px 0 0 0;
+}
+section.video .imagem {
+  width: 50%;
+  background-image: url('../../../../../files/pages/promocao/cama-escura-desktop.png');
+  background-size: cover;
+  background-position: left bottom;
+  position: relative;
+  min-height: 450px;
+}
+section.video .imagem img.controle {
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 100%;
+  max-width: 200px;
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.video {
+    flex-direction: column;
+  }
+  section.video .texto {
+    width: 100%;
+    padding: 50px 20px 20px 20px;
+  }
+  section.video .imagem {
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 50px 20px;
+    background-image: url('../../../../../files/pages/promocao/cama-escura-mobile.png');
+    background-position: left top;
+  }
+}

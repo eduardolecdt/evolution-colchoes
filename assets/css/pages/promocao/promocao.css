@@ -1,0 +1,19 @@
+/* PROMOÇÃO */
+
+@import '../../global/global.css';
+
+/* Partials */
+
+@import './partials/header.css';
+@import './partials/sectionFrase.css';
+@import './partials/sectionSpa.css';
+@import './partials/sectionJusto.css';
+@import './partials/sectionBeneficios.css';
+@import './partials/sectionVideo.css';
+@import './partials/sectionDepoimentos.css';
+@import './partials/sectionTecnologias.css';
+@import './partials/sectionModelos.css';
+@import './partials/sectionDesconto.css';
+@import './partials/sectionPerguntas.css';
+@import './partials/sectionQuem.css';
+@import './partials/footer.css';

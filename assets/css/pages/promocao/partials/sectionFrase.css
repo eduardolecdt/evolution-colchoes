@@ -1,0 +1,126 @@
+/* INDEX > section.frase */
+section.frase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  background-color: var(--cor-cinza-3);
+  padding: 50px;
+}
+section.frase img {
+  width: 100%;
+  max-width: 700px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+section.frase img:hover {
+  opacity: 0.7;
+}
+section.frase h2 {
+  font-family: var(--regular);
+  font-size: clamp(1.3rem, 3vw, 1.7rem);
+  line-height: 1.3;
+  color: var(--cor-cinza-1);
+  width: 100%;
+  max-width: 500px;
+  margin: 0 0 20px 0;
+}
+section.frase h2 span {
+  font-family: var(--demibold);
+}
+/* Modal */
+section.frase div.modal {
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+section.frase div.modal.mostrar {
+  display: flex;
+}
+section.frase div.modal .conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  visibility: hidden;
+}
+@keyframes abrirModal {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+section.frase div.modal.mostrar .conteudo {
+  animation: abrirModal 0.3s linear;
+  opacity: 1;
+  visibility: visible;
+}
+section.frase div.modal .conteudo button {
+  font-family: var(--demibold);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-vermelho);
+  transition: all 0.3s;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 0 0 20px 0;
+}
+section.frase div.modal .conteudo button:hover {
+  opacity: 0.7;
+}
+section.frase div.modal .conteudo .video {
+  width: 100%;
+  max-width: 800px;
+}
+section.frase div.modal .conteudo .video .tamanho {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+section.frase div.modal .conteudo .video .tamanho iframe {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  border-radius: 10px;
+  background-color: var(--cor-preto);
+}
+/* Responsivo */
+@media screen and (max-width: 1000px) {
+  section.frase {
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+  section.frase img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+  }
+  section.frase .texto {
+    margin-right: 0;
+    padding: 20px 0 0 0;
+  }
+}
