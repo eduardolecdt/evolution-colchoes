@@ -37,10 +37,18 @@ section.desconto .texto p {
   width: 100%;
   max-width: 400px;
 }
-section.desconto .texto h3 {
+section.desconto .texto a {
   font-family: var(--demibold);
-  font-size: clamp(0.9rem, 3vw, 1.1rem);
-  color: var(--cor-verde);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-verde);
+  padding: 15px 20px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  margin: 20px 0 0 0;
+}
+section.desconto .texto a:hover {
+  background-color: var(--cor-azul-1);
 }
 section.desconto .imagem {
   width: 50%;
