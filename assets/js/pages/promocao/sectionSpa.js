@@ -1,12 +1,12 @@
 (function (){
 
   // CONST
-  const header = document.querySelector('header')
-  const buttonSolteiro = header.querySelector('button[name="solteiro"]')
-  const buttonCasal = header.querySelector('button[name="casal"]')
-  const buttonQueen = header.querySelector('button[name="queen"]')
-  const buttonKing = header.querySelector('button[name="king"]')
-  const buttonBasebox = header.querySelector('button[name="basebox"]')
+  const sectionSpa = document.querySelector('section[name="spa"]')
+  const buttonSolteiro = sectionSpa.querySelector('button[name="solteiro"]')
+  const buttonCasal = sectionSpa.querySelector('button[name="casal"]')
+  const buttonQueen = sectionSpa.querySelector('button[name="queen"]')
+  const buttonKing = sectionSpa.querySelector('button[name="king"]')
+  const buttonBasebox = sectionSpa.querySelector('button[name="basebox"]')
 
   function ativarSolteiro () {
     buttonSolteiro.addEventListener('click', () => {
