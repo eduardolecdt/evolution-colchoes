@@ -27,16 +27,20 @@
   abrirModal1()
   fecharModal1()
 
-  
-  // CONST
   const sectionVideo = document.querySelector('section[name="video"]')
   const buttonSolteiro = sectionVideo.querySelector('button[name="solteiro"]')
   const buttonCasal = sectionVideo.querySelector('button[name="casal"]')
+  const buttonQueen = sectionVideo.querySelector('button[name="queen"]')
+  const buttonKing = sectionVideo.querySelector('button[name="king"]')
+  const buttonBasebox = sectionVideo.querySelector('button[name="basebox"]')
 
   function ativarSolteiro () {
     buttonSolteiro.addEventListener('click', () => {
       buttonSolteiro.classList.add('ativo')
       buttonCasal.classList.remove('ativo')
+      buttonQueen.classList.remove('ativo')
+      buttonKing.classList.remove('ativo')
+      buttonBasebox.classList.remove('ativo')
     })
   }
 
@@ -44,10 +48,46 @@
     buttonCasal.addEventListener('click', () => {
       buttonCasal.classList.add('ativo')
       buttonSolteiro.classList.remove('ativo')
+      buttonQueen.classList.remove('ativo')
+      buttonKing.classList.remove('ativo')
+      buttonBasebox.classList.remove('ativo')
+    })
+  }
+
+  function ativarQueen () {
+    buttonQueen.addEventListener('click', () => {
+      buttonQueen.classList.add('ativo')
+      buttonSolteiro.classList.remove('ativo')
+      buttonCasal.classList.remove('ativo')
+      buttonKing.classList.remove('ativo')
+      buttonBasebox.classList.remove('ativo')
+    })
+  }
+
+  function ativarKing () {
+    buttonKing.addEventListener('click', () => {
+      buttonKing.classList.add('ativo')
+      buttonSolteiro.classList.remove('ativo')
+      buttonCasal.classList.remove('ativo')
+      buttonQueen.classList.remove('ativo')
+      buttonBasebox.classList.remove('ativo')
+    })
+  }
+
+  function ativarBasebox () {
+    buttonBasebox.addEventListener('click', () => {
+      buttonBasebox.classList.add('ativo')
+      buttonSolteiro.classList.remove('ativo')
+      buttonCasal.classList.remove('ativo')
+      buttonQueen.classList.remove('ativo')
+      buttonKing.classList.remove('ativo')
     })
   }
 
   ativarSolteiro()
   ativarCasal()
+  ativarQueen()
+  ativarKing()
+  ativarBasebox()
 
 }())
