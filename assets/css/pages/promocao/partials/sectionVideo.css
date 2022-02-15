@@ -84,7 +84,53 @@ section.video .imagem .formulario form label {
   color: var(--cor-preto);
   width: 100%;
 }
-section.video .imagem .formulario form input {
+section.video .imagem .formulario button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  color: var(--cor-cinza-1);
+  margin: 15px 0 0 0;
+  transition: all 0.3s;
+}
+section.video .imagem .formulario button.ativo {
+  color: var(--cor-verde);
+}
+section.video .imagem .formulario button span {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  border-radius: 50%;
+  background-color: #dfe3e7;
+  margin: 0 10px 0 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+section.video .imagem .formulario button.ativo span {
+  background-color: var(--cor-verde);
+}
+section.video .imagem .formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+section.video .imagem .formulario form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+section.video .imagem .formulario label {
+  font-family: var(--regular);
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--cor-preto);
+  width: 100%;
+}
+section.video .imagem .formulario input {
   font-family: var(--demibold);
   font-size: clamp(0.8rem, 3vw, 1rem);
   color: var(--cor-preto);

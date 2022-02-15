@@ -27,4 +27,27 @@
   abrirModal1()
   fecharModal1()
 
+  
+  // CONST
+  const sectionVideo = document.querySelector('section[name="video"]')
+  const buttonSolteiro = sectionVideo.querySelector('button[name="solteiro"]')
+  const buttonCasal = sectionVideo.querySelector('button[name="casal"]')
+
+  function ativarSolteiro () {
+    buttonSolteiro.addEventListener('click', () => {
+      buttonSolteiro.classList.add('ativo')
+      buttonCasal.classList.remove('ativo')
+    })
+  }
+
+  function ativarCasal () {
+    buttonCasal.addEventListener('click', () => {
+      buttonCasal.classList.add('ativo')
+      buttonSolteiro.classList.remove('ativo')
+    })
+  }
+
+  ativarSolteiro()
+  ativarCasal()
+
 }())

@@ -83,7 +83,7 @@ header .imagem {
   background-position: left top;
   min-height: 650px;
   position: relative;
-  padding: 40px;
+  padding: 90px 40px 40px 40px;
 }
 header .imagem .formulario {
   display: flex;
@@ -105,11 +105,39 @@ header .imagem .formulario h2 {
   max-width: 300px;
   padding: 0 0 20px 0;
 }
+header .imagem .formulario button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  font-family: var(--demibold);
+  font-size: clamp(0.9rem, 3vw, 1.1rem);
+  color: var(--cor-cinza-1);
+  margin: 15px 0 0 0;
+  transition: all 0.3s;
+}
+header .imagem .formulario button.ativo {
+  color: var(--cor-verde);
+}
+header .imagem .formulario button span {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  min-height: 20px;
+  border-radius: 50%;
+  background-color: #dfe3e7;
+  margin: 0 10px 0 0;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+header .imagem .formulario button.ativo span {
+  background-color: var(--cor-verde);
+}
 header .imagem .formulario form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  margin: 20px 0 0 0;
 }
 header .imagem .formulario form div {
   display: flex;
@@ -117,13 +145,13 @@ header .imagem .formulario form div {
   align-items: flex-start;
   width: 100%;
 }
-header .imagem .formulario form label {
+header .imagem .formulario label {
   font-family: var(--regular);
   font-size: clamp(0.8rem, 3vw, 1rem);
   color: var(--cor-preto);
   width: 100%;
 }
-header .imagem .formulario form input {
+header .imagem .formulario input {
   font-family: var(--demibold);
   font-size: clamp(0.8rem, 3vw, 1rem);
   color: var(--cor-preto);
