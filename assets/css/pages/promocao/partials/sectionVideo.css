@@ -22,7 +22,7 @@ section.video .texto h2 {
   width: 100%;
   max-width: 420px;
 }
-section.video .texto h2 span {
+section.video .texto h2 videon {
   font-family: var(--demibold);
 }
 section.video .texto p {
@@ -35,19 +35,83 @@ section.video .texto p {
   padding: 20px 0 0 0;
 }
 section.video .imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
-  background-image: url('../../../../../files/pages/promocao/cama-escura-desktop.png');
+  background-image: url('../../../../../files/pages/promocao/cama-dourada-desktop.png');
   background-size: cover;
-  background-position: left bottom;
+  background-position: left top;
+  min-height: 650px;
   position: relative;
-  min-height: 450px;
+  padding: 40px;
 }
-section.video .imagem img.controle {
-  position: absolute;
-  bottom: 10px;
-  right: 0;
+section.video .imagem .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--cor-branco);
+  box-shadow: 0 0 30px 0 rgba(19, 31, 46, 0.3);
+  border-radius: 10px;
+  padding: 40px;
   width: 100%;
-  max-width: 200px;
+  max-width: 500px;
+}
+section.video .imagem .formulario h2 {
+  font-family: var(--demibold);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  color: var(--cor-azul-1);
+  line-height: 1.4;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 0 20px 0;
+}
+section.video .imagem .formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+section.video .imagem .formulario form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+section.video .imagem .formulario form label {
+  font-family: var(--regular);
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--cor-preto);
+  width: 100%;
+}
+section.video .imagem .formulario form input {
+  font-family: var(--demibold);
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--cor-preto);
+  background-color: #dfe3e7;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  transition: all 0.3s;
+}
+section.video .imagem .formulario form input:focus {
+  color: var(--cor-azul-1);
+  background-color: #cad2da;
+}
+section.video .imagem .formulario form input.button {
+  font-family: var(--demibold);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-verde);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px 0 0 0;
+  width: 100%;
+  transition: all 0.3s;
+}
+section.video .imagem .formulario form input.button:hover {
+  background-color: #20b834;
 }
 /* Responsivo */
 @media screen and (max-width: 1000px) {
@@ -60,9 +124,15 @@ section.video .imagem img.controle {
   }
   section.video .imagem {
     width: 100%;
-    position: relative;
-    padding: 20px 20px 50px 20px;
     background-image: url('../../../../../files/pages/promocao/cama-escura-mobile.png');
     background-position: left top;
+    min-height: auto;
+    padding: 40px 20px;
+  }
+  section.video .imagem .formulario {
+    padding: 30px;
+  }
+  section.video .imagem .formulario h2 {
+    max-width: 250px;
   }
 }

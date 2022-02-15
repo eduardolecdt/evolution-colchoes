@@ -74,19 +74,83 @@ header .titulo button:hover {
 }
 /* Imagem */
 header .imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
-  background-image: url('../../../../../files/pages/promocao/cama-azul-desktop.png');
+  background-image: url('../../../../../files/pages/promocao/cama-dourada-desktop.png');
   background-size: cover;
   background-position: left top;
   min-height: 650px;
   position: relative;
+  padding: 40px;
 }
-header .imagem img.controle {
-  position: absolute;
-  bottom: 20px;
-  right: 0;
+header .imagem .formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: var(--cor-branco);
+  box-shadow: 0 0 30px 0 rgba(19, 31, 46, 0.3);
+  border-radius: 10px;
+  padding: 40px;
   width: 100%;
-  max-width: 150px;
+  max-width: 500px;
+}
+header .imagem .formulario h2 {
+  font-family: var(--demibold);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  color: var(--cor-azul-1);
+  line-height: 1.4;
+  width: 100%;
+  max-width: 300px;
+  padding: 0 0 20px 0;
+}
+header .imagem .formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+header .imagem .formulario form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+header .imagem .formulario form label {
+  font-family: var(--regular);
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--cor-preto);
+  width: 100%;
+}
+header .imagem .formulario form input {
+  font-family: var(--demibold);
+  font-size: clamp(0.8rem, 3vw, 1rem);
+  color: var(--cor-preto);
+  background-color: #dfe3e7;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  transition: all 0.3s;
+}
+header .imagem .formulario form input:focus {
+  color: var(--cor-azul-1);
+  background-color: #cad2da;
+}
+header .imagem .formulario form input.button {
+  font-family: var(--demibold);
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: var(--cor-branco);
+  background-color: var(--cor-verde);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px 0 0 0;
+  width: 100%;
+  transition: all 0.3s;
+}
+header .imagem .formulario form input.button:hover {
+  background-color: #20b834;
 }
 /* Responsivo */
 @media screen and (max-width: 1000px) {
@@ -102,12 +166,15 @@ header .imagem img.controle {
   }
   header .imagem {
     width: 100%;
-    background-image: url('../../../../../files/pages/promocao/cama-azul-mobile.png');
-    background-position: top right;
-    min-height: 400px;
+    background-image: url('../../../../../files/pages/promocao/cama-dourada-mobile.png');
+    background-position: top center;
+    min-height: auto;
+    padding: 40px 20px;
   }
-  header .imagem img.controle {
-    bottom: 10px;
-    max-width: 70px;
+  header .imagem .formulario {
+    padding: 30px;
+  }
+  header .imagem .formulario h2 {
+    max-width: 250px;
   }
 }
