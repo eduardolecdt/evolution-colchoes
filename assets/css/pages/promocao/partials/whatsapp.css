@@ -1,0 +1,16 @@
+/* Whatsapp */
+a.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background-color: #23a950;
+  padding: 3px;
+  border-radius: 50%;
+}
+a.whatsapp img {
+  width: 100%;
+  max-width: 70px;
+  border-radius: 50%;
+  pointer-events: none;
+}

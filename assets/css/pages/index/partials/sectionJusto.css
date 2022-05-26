@@ -41,7 +41,7 @@ section.justo .texto p img {
   min-width: 15px;
   margin: 0 5px 0 0;
 }
-section.justo .texto h3 {
+section.justo .texto a {
   font-family: var(--demibold);
   font-size: clamp(1.2rem, 3vw, 1.4rem);
   color: var(--cor-verde);

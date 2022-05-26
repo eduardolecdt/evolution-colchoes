@@ -37,14 +37,14 @@ section.desconto .texto p {
   width: 100%;
   max-width: 400px;
 }
-section.desconto .texto h3 {
+section.desconto .texto a {
   font-family: var(--demibold);
   font-size: clamp(0.9rem, 3vw, 1.1rem);
   color: var(--cor-verde);
 }
 section.desconto .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/index/evolution-2.png');
+  background-image: url('../../../../../files/pages/index/cama-preta-desktop.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -121,6 +121,7 @@ section.desconto .imagem app-temporizador .informacoes .parte p {
   section.desconto .imagem {
     width: 100%;
     background-position: right bottom;
+    background-image: url('../../../../../files/pages/index/cama-preta-mobile.png');
     min-height: 400px;
     padding: 0 0 0 20px;
   }

@@ -52,7 +52,7 @@ section.desconto .texto a:hover {
 }
 section.desconto .imagem {
   width: 50%;
-  background-image: url('../../../../../files/pages/promocao/evolution-2.png');
+  background-image: url('../../../../../files/pages/promocao/cama-dourada-desktop.png');
   background-size: cover;
   background-position: left center;
   background-repeat: no-repeat;
@@ -129,6 +129,7 @@ section.desconto .imagem app-temporizador .informacoes .parte p {
   section.desconto .imagem {
     width: 100%;
     background-position: right bottom;
+    background-image: url('../../../../../files/pages/promocao/cama-dourada-mobile.png');
     min-height: 400px;
     padding: 0 0 0 20px;
   }

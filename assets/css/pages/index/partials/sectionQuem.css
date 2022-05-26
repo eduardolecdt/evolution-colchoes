@@ -5,7 +5,7 @@ section.quem {
   justify-content: flex-start;
   width: 100%;
   background-color: var(--cor-branco);
-  background-image: url('../../../../../files/pages/index/evolution-3.png');
+  background-image: url('../../../../../files/pages/index/cama-azul-desktop.png');
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
@@ -63,6 +63,7 @@ section.quem .titulo button:hover {
 @media screen and (max-width: 1000px) {
   section.quem {
     flex-direction: column;
+    background-image: url('../../../../../files/pages/index/cama-azul-mobile.png');
   }
   section.quem .titulo {
     width: 100%;
